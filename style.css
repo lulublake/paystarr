@@ -22,7 +22,7 @@ body{
     justify-content: space-between;
     padding: 24px 0;
     position: relative;
-    width: 1288px;
+    width: 1300px;
 }
 .logo{
     display: flex;
@@ -121,5 +121,26 @@ body{
     font-style: normal;
     font-weight: 400;
     display: flex;
-    
+}
+.features-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px;
+    height: 300px;
+    width: 1290px;
+    align-items: center;
+    flex-grow: 0;
+}
+.container-blocks{
+    width: 350px;
+}
+.container-blocks p{
+    line-height: 1.5;
+}
+.container-blocks h3{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.537898px;
+    font-weight: 600;
+    font-style: normal;
 }
