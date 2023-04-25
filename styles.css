@@ -266,7 +266,8 @@ section{
     .features-container{
         display: flex;
         flex-direction: column;
-        height: fit-content; 
+        height: fit-content;
+        align-items: flex-start;
     }
     .hide{
         display: none;
